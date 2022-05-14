@@ -39,4 +39,8 @@ export class Mobile{
     setCamera(ans:number){
         this.cameraNumber=ans;
     }
+    getPrice():number{
+        let price=this.price;
+        return price
+    }
 }

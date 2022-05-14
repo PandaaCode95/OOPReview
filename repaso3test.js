@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var Repaso3_1 = require("./Repaso3");
+var Repaso2_1 = require("./Repaso2");
+var noki = new Repaso2_1.Mobile("Nokia", "3210", "Nokia corp", 8, false, 1, 20);
+var i3G = new Repaso2_1.Mobile("iPhone", "3", "Apple", 32, false, 2, 100);
+var SG10 = new Repaso2_1.Mobile("Samsung", "Galaxy", "Samsung inc", 128, true, 4, 400);
+var SG11 = new Repaso2_1.Mobile("Samsung", "Galaxy 11", "Samsung inc", 256, true, 6, 800);
+var lib = new Repaso3_1.MobileLib("Esta Tiendo", "Mi calle", [noki, i3G, SG10, SG11]);
+console.log(lib.totalPrice);
+lib.printLib();

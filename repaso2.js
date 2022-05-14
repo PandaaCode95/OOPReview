@@ -32,6 +32,10 @@ var Mobile = /** @class */ (function () {
     Mobile.prototype.setCamera = function (ans) {
         this.cameraNumber = ans;
     };
+    Mobile.prototype.getPrice = function () {
+        var price = this.price;
+        return price;
+    };
     return Mobile;
 }());
 exports.Mobile = Mobile;
